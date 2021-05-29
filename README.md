@@ -1,4 +1,4 @@
-# screencast-tools for Linux
+# screencast-tools for Fedora Linux
 ## Linux 一些有用的螢幕錄製工具
 
 ### 1. 畫面錄影
