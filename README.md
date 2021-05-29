@@ -4,14 +4,34 @@
 ### 1. 畫面錄影
 * [simplescreenrecorder](https://www.maartenbaert.be/simplescreenrecorder/)
 
-  `# sudo dnf install -y simplescreenrecorder
-  `
+  ```
+  # sudo dnf install -y simplescreenrecorder
+  ```
 ### 2. 顯示滑鼠位置
 * [bDMZ 滑鼠指標](https://www.gnome-look.org/p/999801/)
+
+  ```
+  # tar xvfz 160115-bDMZT.tar.gz
+  # mv bDMZT/* ~/.icons
+  # vim ~/.config/compiz/compizconfig/Default.ini
+  [core]
+  as_cursor_theme = ybDMZ                                                                         
+  
+  # vim ~/.config/gtk-3.0/settings.ini
+  [Settings]
+  gtk-cursor-theme-name=ybDMZ
+  
+  # vim ~/.gtkrc-2.0
+  gtk-cursor-theme-name="ybDMZ"
+  ```
 * [Compiz Showmouse 外掛](http://wiki.compiz.org/Plugins/Showmouse)
 
 ### 3. 顯示鍵盤輸入
 * [screenkey](https://www.thregr.org/~wavexx/software/screenkey/)
+
+  ```
+  # sudo dnf install -y screenkey
+  ```
 
 ### 4. 自動字幕
 * [Closed Captioning OBS Plugin](https://github.com/ratwithacompiler/OBS-captions-plugin)
@@ -20,6 +40,18 @@
 * [Open-as-Popup for Google Chrome](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc)
 * [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber)
 
+  ```
+  # cd pyTranscriber
+  # python main.py
+  ```
+
 ### 5. 聲音降噪
 * [NoiseTorch](https://github.com/lawl/NoiseTorch)
 * [module-echo-cancel for PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/#module-echo-cancel)
+
+### 6. 影片裁剪
+* [Avidemux](http://www.avidemux.org/)
+
+  ```
+  # sudo dnf install -y avidemux
+  ```
