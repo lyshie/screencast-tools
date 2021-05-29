@@ -67,6 +67,11 @@
 
 ### 3. Webcam 特效
 * [Webcamoid](https://webcamoid.github.io/)
+* [v4l2loopback](https://github.com/umlaeute/v4l2loopback)
+
+  ```
+  # sudo dnf install -y v4l2loopback
+  ```
 
 ### 4. 程式教學平台
 * [Code.org](https://code.org/)
