@@ -13,6 +13,7 @@
   ```
   # tar xvfz 160115-bDMZT.tar.gz
   # mv bDMZT/* ~/.icons
+  
   # vim ~/.config/compiz/compizconfig/Default.ini
   [core]
   as_cursor_theme = ybDMZ                                                                         
