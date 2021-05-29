@@ -56,3 +56,14 @@
   ```
   # sudo dnf install -y avidemux
   ```
+  
+## 行動裝置相關工具
+### 1. Android 螢幕投影
+* [scrcpy](https://github.com/Genymobile/scrcpy)
+
+### 2. 手機相機當電腦鏡頭
+* [DroidCam for PC](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam)
+* [DroidCam for Linux](https://www.dev47apps.com/droidcam/linux/)
+
+### 3. Webcam 特效
+* [Webcamoid](https://webcamoid.github.io/)
