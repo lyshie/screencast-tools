@@ -71,6 +71,11 @@
 ## 行動裝置相關工具
 ### 1. Android 螢幕投影
 * [scrcpy](https://github.com/Genymobile/scrcpy)
+
+  ```
+  # scrcpy -m 1920
+  ```
+  
 * [Scrcpy AppImage](https://github.com/srevinsaju/scrcpy-appimage)
 
 ### 2. 手機相機當電腦鏡頭
