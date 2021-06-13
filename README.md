@@ -57,6 +57,16 @@
   # sudo dnf install -y avidemux
   ```
   
+### 7. 字幕編輯
+* [Gnome Subtitles](https://gnomesubtitles.org/)
+
+  ```
+  # sudo dnf install -y gnome-subtitles
+  ```
+  ```
+  # ffmpeg -i MakeCode剪刀石頭布.mp4 -preset ultrafast -vf "subtitles=MakeCode剪刀石頭布.srt:force_style='FontName=GenSenRounded TW,FontSize=24'" output.mp4
+  ```
+  
 ## 行動裝置相關工具
 ### 1. Android 螢幕投影
 * [scrcpy](https://github.com/Genymobile/scrcpy)
