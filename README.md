@@ -66,6 +66,7 @@
   ```
   # ffmpeg -i MakeCode剪刀石頭布.mp4 -preset ultrafast -vf "subtitles=MakeCode剪刀石頭布.srt:force_style='FontName=GenSenRounded TW,FontSize=24'" output.mp4
   ```
+* [繁體中文免費字型列表](https://zi-hi.com/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%E5%85%8D%E8%B2%BB%E5%AD%97%E5%9E%8B%E5%88%97%E8%A1%A8)
   
 ## 行動裝置相關工具
 ### 1. Android 螢幕投影
