@@ -81,6 +81,13 @@
 ### 2. 手機相機當電腦鏡頭
 * [DroidCam for PC](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam)
 * [DroidCam for Linux](https://www.dev47apps.com/droidcam/linux/)
+* [Iriun Webcam](https://iriun.com/)
+
+  ```
+  # dpkg -x iriunwebcam-2.4.1.deb iriunwebcam
+  # cd iriunwebcam/usr/local/bin
+  # ./iriunwebcam
+  ```
 
 ### 3. Webcam 特效
 * [Webcamoid](https://webcamoid.github.io/)
